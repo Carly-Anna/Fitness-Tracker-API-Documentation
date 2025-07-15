@@ -10,7 +10,7 @@ Create a new workout entry.
 POST /workouts
 Authorization: Bearer {token}
 Content-Type: application/json
-```
+
 
 {
   "user_id": "123",
@@ -83,7 +83,7 @@ Set a new fitness goal.
   "target_weight": 125,
   "deadline": "2025-08-31"
 }
-```
+
 
 ## GET /goals?user_id=123
 {

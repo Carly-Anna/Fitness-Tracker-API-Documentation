@@ -86,7 +86,6 @@ Set a new fitness goal.
 }
 
 
-## GET /goals?user_id=123
 {
   "goal_type": "weight_loss",
   "target_weight": 125,

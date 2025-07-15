@@ -27,6 +27,7 @@ Content-Type: application/json
   "calories_burned": 250,
   "created_at": "2025-07-15T08:00:00Z"
 }
+```
 ---
 ## Get /workouts?user_id=123
 Retrieve a list of workouts for a specific user
@@ -57,14 +58,14 @@ Fetch weight history for a user.
 ```http
 GET /progress/weight?user_id=123
 Authorization: Bearer {token}
-```
+
 
 [
   {"date": "2025-07-01", "weight": 140},
   {"date": "2025-07-08", "weight": 137.5},
   {"date": "2025-07-15", "weight": 135}
 ]
-
+```
 ---
 
 ### 🔹 `docs/endpoints/goals.md`
@@ -93,7 +94,7 @@ Set a new fitness goal.
   "progress": "80%",
   "deadline": "2025-08-31"
 }
-
+```
 ---
 
 ### 🔹 `docs/errors.md`
